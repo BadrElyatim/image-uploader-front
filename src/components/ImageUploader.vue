@@ -81,7 +81,7 @@ export default {
             formData.append('file', this.file)
 
 
-            axios.post('http://localhost:3000/api',
+            axios.post('https://alert-crab-helmet.cyclic.app/api',
                 formData,
                 {
                     headers: {

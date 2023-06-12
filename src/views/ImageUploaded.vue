@@ -28,7 +28,7 @@ export default {
         }
     },
     created() {
-        this.imageLink = 'http://localhost:3000/api/image/' + this.$route.params.id
+        this.imageLink = 'https://alert-crab-helmet.cyclic.app/api/image/' + this.$route.params.id
     },
     methods: {
         copy() {
